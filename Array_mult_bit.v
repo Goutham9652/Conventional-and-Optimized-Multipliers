@@ -6,7 +6,7 @@ module Array_mult_8bit_tb;
     reg [7:0] a,b;
     wire [15:0] p;
    
-    
+   
     Dadda_mult_8bit uut(clk,a,b,p);
     integer i;
     initial begin
